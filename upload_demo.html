@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title></title>
+    <link href="plugins/imageuploader/ImageUpload.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/libs/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="plugins/imageuploader/ImageUpload.js"></script>
+</head>
+<body>
+<!-- Possible Attributes -->
+<!--
+	ListViewMinHeight, 
+	GridViewMinHeight, 
+	UploadWidth,
+	Multiple
+-->
+
+<div class="container" id="ImageUpload">
+	
+</div>
+<script type="text/javascript">
+	$("#ImageUpload").iUpload({
+		EnableSwitchView: true,
+		GridColumnsNum: 5,
+		UploadWidth : '70%',
+		OnSelected: function(key, name, size, type){
+			/* alert(key + " " + name + " " + size + " " + type); */
+		},
+		OnProgress : function(key, name, type, uploaded, total){
+			/* console.log(key + "-" + name + "-" + uploaded +"-" + total); */
+		},
+		OnStart : function(key, name, size, type){
+			/* console.log(key + "-" + name + "-" + size +"-" + type); */
+		},
+		OnSuccess: function(key, name, size, type){
+			/* console.log(key + "-" + name + "-" + size +"-" + type); */
+		}
+	});
+</script>
+</body>
+</html>
