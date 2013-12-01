@@ -37,11 +37,13 @@ Setup
 	images
 	jQuery v1.6+
 * **On the page you are implementing ImageUpload on, add a reference to the jQuery library.**
+
 ```
 <link href="ImageUpload.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="js/libs/jquery-1.9.1.js"></script>
 <script type="text/javascript" src="ImageUpload.js"></script>
 ```
+
 * **Initialize ImageUpload on the page.**
 
 ```
