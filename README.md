@@ -42,10 +42,12 @@ Setup
 <script type="text/javascript" src="js/libs/jquery-1.9.1.js"></script>
 <script type="text/javascript" src="ImageUpload.js"></script>
 ```
-4, Initialize ImageUpload on the page.
+* **Initialize ImageUpload on the page.**
+
 ```
 <div class="container" id="ImageUpload"></div>
 ```
+
 ```
 <script type="text/javascript">
 $("#ImageUpload").iUpload({
