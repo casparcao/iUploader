@@ -37,16 +37,16 @@ Setup
 	images
 	jQuery v1.6+
 * **On the page you are implementing ImageUpload on, add a reference to the jQuery library.**
-```html
+```
 <link href="ImageUpload.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="js/libs/jquery-1.9.1.js"></script>
 <script type="text/javascript" src="ImageUpload.js"></script>
 ```
 4, Initialize ImageUpload on the page.
-```html
+```
 <div class="container" id="ImageUpload"></div>
 ```
-```javascript
+```
 <script type="text/javascript">
 $("#ImageUpload").iUpload({
 	EnableSwitchView: true,
