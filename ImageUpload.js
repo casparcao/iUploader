@@ -1,3 +1,7 @@
+/**
+ * @author : Michael Cao (GoodLoser)
+ * @date : 12/3/2013
+ */
 (function(global, jQ){
 	"use strict";
 	
